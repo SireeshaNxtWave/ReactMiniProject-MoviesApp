@@ -1,0 +1,7 @@
+.slick-prev:before,
+.slick-next:before {
+  background-color: transparent;
+  color: #ffffff;
+  height: 56px;
+  width: 56px;
+}

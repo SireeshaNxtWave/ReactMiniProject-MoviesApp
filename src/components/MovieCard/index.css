@@ -1,0 +1,15 @@
+.popular-movie-poster {
+  width: 235px;
+  height: 170px;
+  border-radius: 8px;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .popular-movie-poster {
+    width: 90px;
+    height: 100px;
+  }
+}
+.list-item {
+  list-style: none;
+}

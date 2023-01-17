@@ -1,0 +1,85 @@
+.login-bg-container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  font-family: 'roboto';
+}
+
+.website-logo {
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    background-image: url('https://res.cloudinary.com/dbs4ptlww/image/upload/v1672742806/netfilx_1_dytbvw.png');
+    background-size: cover;
+  }
+  .website-logo {
+    margin-left: 60px;
+    width: 200px;
+  }
+}
+.login-form {
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .login-form {
+    background-color: #0c0b10;
+    align-self: center;
+    opacity: 0.8;
+    padding: 30px;
+    margin-top: 100px;
+    width: 456px;
+    height: 440px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.login-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .login-heading {
+    align-self: center;
+  }
+}
+.label-name {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 15px;
+}
+.input-element {
+  height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 24px;
+  background-color: #333333;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 30px;
+}
+.login-button {
+  background-color: #e50914;
+  border-style: none;
+  border-radius: 8px;
+  color: #ffffff;
+  height: 40px;
+}
+.error-msg {
+  color: #dc2626;
+  font-family: 'HK Grotesk';
+  font-size: 10px;
+}

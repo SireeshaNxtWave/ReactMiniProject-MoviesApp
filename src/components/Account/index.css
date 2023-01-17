@@ -1,0 +1,46 @@
+.account-container {
+  padding: 50px;
+  background-color: #ffffff;
+}
+.account-heading {
+  color: #131313;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.hr-line {
+  color: #cbd5e1;
+  height: 2px;
+}
+.description {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #94a3b8;
+}
+.span-element {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #1e293b;
+  margin-left: 30px;
+}
+.ultra-hd {
+  border: 1px solid #1e293b;
+  background-color: transparent;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logout-btn {
+  background-color: #e50914;
+  border: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+  align-self: flex-end;
+}

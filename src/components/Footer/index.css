@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #131313;
+}
+.icons-container {
+  display: flex;
+  flex-direction: row;
+}
+.icon-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  background-color: transparent;
+}
+.contact-text {
+  color: #ffffff;
+  font-size: 20px;
+}
