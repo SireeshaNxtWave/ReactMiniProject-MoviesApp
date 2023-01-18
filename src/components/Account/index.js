@@ -20,7 +20,7 @@ const Account = props => {
     <>
       <Header />
       <div className="account-container">
-        <h1 className="account-heading">Account</h1>
+        <h2 className="account-heading">Account</h2>
         <hr className="hr-line" />
         <p className="description">
           Member ship <span className="span-element">{username}@gmail.com</span>

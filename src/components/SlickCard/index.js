@@ -7,7 +7,9 @@ const SlickCard = props => {
 
   return (
     <Link to={`/movies/${id}`}>
-      <img alt={title} className="poster-img" src={posterPath} />
+      <li>
+        <img alt={title} className="poster-img" src={posterPath} />
+      </li>
     </Link>
   )
 }

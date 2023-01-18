@@ -26,6 +26,7 @@ class Search extends Component {
   }
 
   getSearchMovies = async () => {
+    this.setState({apiStatus: apiStatusConstants.inProgress})
     const {searchInput} = this.state
     // console.log(searchInput)
     const jwtToken = Cookies.get('jwt_token')
@@ -111,9 +112,9 @@ class Search extends Component {
                     <Link to={`/movies/${each.id}`} key={each.id}>
                       <li className="search-filter-li-item" key={each.id}>
                         <img
-                          className="search-poster"
-                          src={each.posterPath}
                           alt={each.title}
+                          src={each.posterPath}
+                          className="search-poster"
                         />
                       </li>
                     </Link>
