@@ -206,9 +206,11 @@ class MovieItemDetails extends Component {
         </div>
         <div className="similar-movies-container">
           <h1 className="heading">More like this</h1>
-          {similarMovies.map(each => (
-            <MovieCard key={each.id} details={each} />
-          ))}
+          <ul className="similar-movies-list">
+            {similarMovies.map(each => (
+              <MovieCard key={each.id} details={each} />
+            ))}
+          </ul>
         </div>
       </div>
     )

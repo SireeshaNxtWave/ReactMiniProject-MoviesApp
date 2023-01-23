@@ -67,3 +67,8 @@
   font-weight: 600;
   font-size: 24px;
 }
+.similar-movies-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

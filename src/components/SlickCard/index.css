@@ -4,3 +4,6 @@
   border-radius: 8px;
   margin: 10px;
 }
+.list-item {
+  list-style: none;
+}
