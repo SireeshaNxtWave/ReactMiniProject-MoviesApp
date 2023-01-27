@@ -7,7 +7,7 @@ const MovieCard = props => {
   const {id, posterPath, title} = details
 
   return (
-    <Link to={`/movies/${id}`}>
+    <Link to={`/movies/${id}`} key={id}>
       <li className="list-item" key={id}>
         <img alt={title} className="popular-movie-poster" src={posterPath} />
       </li>

@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import Header from '../Header'
@@ -19,10 +19,6 @@ class Search extends Component {
     searchInput: '',
     searchMovies: [],
     apiStatus: apiStatusConstants.initial,
-  }
-
-  componentDidMount() {
-    this.getSearchMovies()
   }
 
   getSearchMovies = async () => {
@@ -165,6 +161,10 @@ class Search extends Component {
   }
 
   render() {
+      const jwtToken = Cookies.get("jwt_token")
+      if (jwtToken === undefined) {
+          <Redirect to="/login" />
+      }
     return (
       <div className="search-filter-bg-container">
         <Header searchInput={this.searchInput} />
